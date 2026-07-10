@@ -1,73 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Neo Holland</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/animations.css">
+
 </head>
+
 <body>
 
-    <header>
-        <nav>
-            <h2>My Portfolio</h2>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
 
-    <main>
+    <div class="logo">
+        <img src="images/logo.png" alt="NH Logo">
+    </div>
 
-        <section class="hero">
-            <h1>Hello, I'm Your Name</h1>
-            <p> </p>
-        </section>
+    <nav>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-left">
+
+        <h1>
+            Neo<br>
+            Holland
+        </h1>
+
+        <p>
+            <br>
+        </p>
+
+        <a href="#projects" class="button">
+            View Projects
+        </a>
+
+    </div>
+
+    <div class="hero-right">
+
+        <a href="#">
+            <img src="images/linkedin.svg" class="social">
+        </a>
+
+        <a href="#">
+            <img src="images/github.svg" class="social">
+        </a>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+
+            <h3>Portfolio</h3>
+
             <p>
-                Welcome to my portfolio!
+                Personal portfolio website.
             </p>
-        </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
+        </div>
 
-            <div class="projects">
-                <div class="card">
-                    <h3>Project One</h3>
-                    <p>A brief description of your project.</p>
-                </div>
+        <div class="card">
 
-                <div class="card">
-                    <h3>Project Two</h3>
-                    <p>A brief description of your project.</p>
-                </div>
+            <h3>Project Two</h3>
 
-                <div class="card">
-                    <h3>Project Three</h3>
-                    <p>A brief description of your project.</p>
-                </div>
-            </div>
-        </section>
+            <p>
+                Coming Soon
+            </p>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: your.email@example.com</p>
-            <p>GitHub: github.com/yourusername</p>
-            <p>LinkedIn: linkedin.com/in/yourusername</p>
-        </section>
+        </div>
 
-    </main>
+        <div class="card">
 
-    <footer>
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
-    </footer>
+            <h3>Project Three</h3>
+
+            <p>
+                Coming Soon
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about">
+
+    <h2>About</h2>
+
+    <p>
+        Hi, I'm Neo.
+    </p>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: you@example.com</p>
+
+</section>
+
+</main>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>

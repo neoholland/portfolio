@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Mono";
+    src: url("../fonts/Mono.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 :root{
 
     --bg:#353535;

@@ -182,10 +182,18 @@ function getEmbedUrl(url) {
     return `https://www.youtube.com/embed/${id}`;
 }
 
+const modal = document.getElementById("projectModal");
+
+function closeModal(){
+
+    modal.classList.remove("active");
+
+    document.getElementById("modalVideo").src = "";
+}
 
 window.addEventListener("click", (e) => {
     if (e.target === modal) {
-        modal.classList.remove("active");
+        closeModal();
     }
 });
 

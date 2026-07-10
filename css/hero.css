@@ -1,0 +1,61 @@
+.hero{
+
+    min-height:85vh;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+}
+
+.hero-left{
+
+    max-width:650px;
+
+}
+
+.hero h1{
+
+    font-size:8rem;
+
+    line-height:.9;
+
+    margin-bottom:30px;
+
+}
+
+.hero p{
+
+    font-size:1.4rem;
+
+    color:var(--light);
+
+}
+
+.hero-right{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:40px;
+
+    margin-top:30px;
+
+}
+
+.social{
+
+    width:70px;
+
+    transition:.3s;
+
+}
+
+.social:hover{
+
+    transform:scale(1.15);
+
+}

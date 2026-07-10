@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 1.5rem 2rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2>My Portfolio</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>Hello, I'm Your Name</h1>
+            <p> </p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio!
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="projects">
+                <div class="card">
+                    <h3>Project One</h3>
+                    <p>A brief description of your project.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Project Two</h3>
+                    <p>A brief description of your project.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Project Three</h3>
+                    <p>A brief description of your project.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: your.email@example.com</p>
+            <p>GitHub: github.com/yourusername</p>
+            <p>LinkedIn: linkedin.com/in/yourusername</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

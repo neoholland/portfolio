@@ -199,6 +199,7 @@ window.addEventListener("click", (e) => {
 
 window.onclick = (e)=>{
     if(e.target.id === "projectModal"){
+        document.getElementById("modalVideo").src = "";
         document.getElementById("projectModal").classList.remove("active");
     }
 };

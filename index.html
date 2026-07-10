@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neo Holland - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Neo Holland" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Neo Holland">Neo Holland</h1>
+
+          <p class="title">Games developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:email@example.com" class="contact-link">email@example.com</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nottingham, UK</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/neo-holland/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/wunkus" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          </p>
+
+          <p>
+            Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+            Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">C# & C++</h4>
+
+                <p class="service-item-text">
+                  Experienced in C# programming for game development, including Unity and C++ using OpenGL. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.png" alt="Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Unreal Engine Scripting</h4>
+
+                <p class="service-item-text">
+                  Experienced in Unreal Engine scripting for game development. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.png" alt="Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D Modeling</h4>
+
+                <p class="service-item-text">
+                  Has some experience in creating 3D models for game development using Blender and Maya, and Photoshop and UV unwrapping for texturing.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.png" alt="Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Design</h4>
+
+                <p class="service-item-text">
+                  Experienced in game design, including level design, mechanics, and user interfaces. 
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+  
+
+
+
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #EDUCATION
+      -->
+
+      <article class="resume" data-page="education">
+
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Staffordshire</h4>
+
+              <span>2025 — 2029</span>
+
+              <p class="timeline-text">
+                Currently studying Games Design and Programming, focusing on more advanced game development and design, using Unreal Engine and Unity.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Confetti College</h4>
+
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                Studied Games Technology, focusing on game development and design, using Unreal Engine, and software such as Blender and Maya for 3D modeling, and Photoshop for texturing.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rushcliffe Spencer Academy</h4>
+
+              <span>2018 — 2023</span>
+
+              <p class="timeline-text">
+                Studied GCSE Computer Science, gaining a decent foundation in programming, and problem-solving skills.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <header>
+          <h2 class="h2 article-title">My Achievements</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/cert2.png" alt="Year 1 award " loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Award</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-02-23">2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Year 1 award</h3>
+
+                  <p class="blog-text">
+                    An award for a college Creative Project, for a game made in Unreal Engine.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+
+            <li class="blog-post-item">
+              <a >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/cert1.png" alt="Year 2 award" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Award</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-02-23">2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Year 2 award</h3>
+
+                  <p class="blog-text">
+                    An award for a college Creative Project, for a game made in Unreal Engine.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>College Work</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>University Work</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game Jams & Personal Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Industry Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>College Work</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>University Work</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Game Jams & Personal Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Industry Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="college work">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box" onclick="openProject('mutagen')">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="project image" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mutagen</h3>
+
+                <p class="project-category">College Work</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="university work">
+              <a href="#">
+
+                <figure class="project-img"> 
+                  <div class="project-item-icon-box"onclick="openProject('displacement')"> 
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="project image" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Wave Based Tower Defense FPS</h3>
+
+                <p class="project-category">University Work</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="game jams & personal projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="project image" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Workplace Displacement</h3>
+
+                <p class="project-category">Game Jam/Personal Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="industry projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="project image" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Industry Project</h3>
+
+                <p class="project-category">Industry Project</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+
+        <!-- Left Column: Media Elements -->
+        <div class="modal-left">
+            <img id="modalImage" src="" alt="Project Gameplay Screenshot">
+            
+            <div class="video-container">
+                <iframe
+                    id="modalVideo"
+                    src=""
+                    title="Gameplay Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Right Column: Project Details -->
+        <div class="modal-right">
+            <h2 id="modalTitle"></h2>
+            <p class="project-type" id="modalType"></p>
+            <div class="tech-list" id="modalTech"></div>
+
+            <h3>About</h3>
+            <p id="modalDescription"></p>
+
+            <div class="buttons">
+                <a id="githubBtn" href="#" target="_blank">GitHub</a>
+                <a id="videoBtn" href="#" target="_blank">Video</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+
+</html>

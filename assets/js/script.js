@@ -146,7 +146,51 @@ const projects = {
             "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
         tech: "Unreal Engine • Scripting • Game Jam",
         github: "https://github.com/wunkus/Workplace-Displacement",
-        video: "https://www.youtube.com/watch?v=qufY2RdLTtY"
+        video: "https://youtu.be/VKLyrSbbdYQ"
+    },
+
+    vectron: {
+        title: "Vectron IX",
+        type: "University Project",
+        image: "assets/images/project-4.png",
+        description:
+            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+        tech: "Unity • C# • University Project",
+        github: "https://github.com/wunkus/",
+        video: "https://youtu.be/cU3KmOJNC7I"
+    },
+
+        tavern: {
+        title: "Tavern Menu",
+        type: "College Project",
+        image: "assets/images/project-0.png",
+        description:
+            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+        tech: "Unreal Engine • 3D Modelling • College Project",
+        github: "https://github.com/wunkus/",
+        video: "https://youtu.be/IYhzi7-CwQA"
+    },
+
+         reactor: {
+        title: "Sci-Fi Reactor",
+        type: "College Project",
+        image: "assets/images/project-0.png",
+        description:
+            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+        tech: "Unreal Engine • 3D Modelling • College Project",
+        github: "https://github.com/wunkus/",
+        video: "https://youtu.be/hn-1OzQTsT8"
+    },
+
+    mechanics: {
+        title: "Mechanics Prototyping",
+        type: "University Project",
+        image: "assets/images/project-3.png",
+        description:
+            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+        tech: "Unreal Engine • Scripting • University Project",
+        github: "https://github.com/wunkus/Mechanics",
+        video: "https://youtu.be/UYL6RJlHKOg"
     }
 };
 

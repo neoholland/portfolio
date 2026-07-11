@@ -156,7 +156,7 @@ const projects = {
         description:
             "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
         tech: "Unity • C# • University Project",
-        github: "https://github.com/wunkus/",
+        github: "https://github.com/wunkus",
         video: "https://youtu.be/cU3KmOJNC7I"
     },
 
@@ -167,7 +167,7 @@ const projects = {
         description:
             "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
         tech: "Unreal Engine • 3D Modelling • College Project",
-        github: "https://github.com/wunkus/",
+        github: "https://github.com/wunkus",
         video: "https://youtu.be/IYhzi7-CwQA"
     },
 
@@ -178,7 +178,7 @@ const projects = {
         description:
             "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
         tech: "Unreal Engine • 3D Modelling • College Project",
-        github: "https://github.com/wunkus/",
+        github: "https://github.com/wunkus",
         video: "https://youtu.be/hn-1OzQTsT8"
     },
 

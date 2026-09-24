@@ -132,7 +132,7 @@ const projects = {
         type: "College Project",
         image: "assets/images/project-1.png",
         description:
-            "Mutagen is a top down Survivor rougelike game where the player plays as a slime crash landed on a planet full of hostile creatures. The player must survive and find a way to escape the planet. The game was made in Unreal Engine 5 and was a college project. I was also awarded the best creative project for this game, which was created and programmed by myself and 3D models were from the Unreal Engine Marketplace.",
+            "Mutagen is a top down Survivor rougelike game where the player plays as a slime crash landed on a planet full of hostile creatures. The player must survive and find a way to escape the planet. The game was made in Unreal Engine 5 and was a college project. I was also awarded the best creative project for this game, which was created and programmed by myself and 3D models were from the Unreal Engine Marketplace. The game takes inspiration from games like Vampire Survivors and others of the same genre.",
         tech: "Unreal Engine • Scripting • College Project",
         github: "https://github.com/wunkus/mutagenx",
         video: "https://www.youtube.com/watch?v=UYKqE75Zc78"
@@ -143,7 +143,7 @@ const projects = {
         type: "Game Jam",
         image: "assets/images/project-2.png",
         description:
-            "Workplace Displacement is a puzzle game which involves navigating through a series of interconnected rooms to solve challenges. The player completed puzzles similar to portal, with the main mechanic being able to switch object positions. The game was made in Unreal Engine 5 and was a 2 week game jam project.",
+            "Workplace Displacement is a puzzle game which involves navigating through a series of office rooms to solve challenges. The player completes puzzles similar to portal, with the main mechanic being able to switch object positions. The game was made in Unreal Engine 5 and was a 2 week game jam project with 2 other team members. I created the core swapping mechanic and puzzle elements, and modeled and textured a few assets. The game mostly takes inspiration from Portal and Stanley Parable.",
         tech: "Unreal Engine • Scripting • Game Jam",
         github: "https://github.com/wunkus/Workplace-Displacement",
         video: "https://youtu.be/VKLyrSbbdYQ"
@@ -154,7 +154,7 @@ const projects = {
         type: "University Project",
         image: "assets/images/project-4.png",
         description:
-            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+            "This short incremental game was my first Unity project at Staffordshire University. The project was to create a simple 2D top down game with at least 6 mechanics, I created a simple game where the player could launch themselves at enemies to deal damage, with upgrades to increase damage and speed modifiers.",
         tech: "Unity • C# • University Project",
         github: "https://github.com/wunkus",
         video: "https://youtu.be/cU3KmOJNC7I"
@@ -163,9 +163,9 @@ const projects = {
         tavern: {
         title: "Tavern Menu",
         type: "College Project",
-        image: "assets/images/project-0.png",
+        image: "assets/images/project-5.png",
         description:
-            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+            "This title screen and enviroment was my first College project in Unreal Engine 5. The project was to make a functioning UI for a title screen, I created a 3D enviroment and added lighting effects to create a cozy tavern background for the title screem.",
         tech: "Unreal Engine • 3D Modelling • College Project",
         github: "https://github.com/wunkus",
         video: "https://youtu.be/IYhzi7-CwQA"
@@ -174,9 +174,9 @@ const projects = {
          reactor: {
         title: "Sci-Fi Reactor",
         type: "College Project",
-        image: "assets/images/project-0.png",
+        image: "assets/images/project-6.png",
         description:
-            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+            "This was my first 3D modelling project for college, the project was to create a small enviroment that the player could explore in a side view perspective. I created a low poly sci-fi reactor room with a short animation for the reactor core, where a brief sound plays and the reactor core lights up. I opted for a low poly style as this was my first 3D modelling project.",
         tech: "Unreal Engine • 3D Modelling • College Project",
         github: "https://github.com/wunkus",
         video: "https://youtu.be/hn-1OzQTsT8"
@@ -187,7 +187,7 @@ const projects = {
         type: "University Project",
         image: "assets/images/project-3.png",
         description:
-            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+            "This project was my first Unreal Engine project at Staffordshire University with the aim of the project to create basic mechanics using a framework provided by the university. I took the project further, changing it from a top down to a first person perspective, and adding more complex mechanics such as animated enemies using mixamo, and enemy spawning. The player was also given the ability to place defences and a range of weapons to use. The games mechanics were heavily inspired by Helldivers II and Deep Rock Galactic. ",
         tech: "Unreal Engine • Scripting • University Project",
         github: "https://github.com/wunkus/Mechanics",
         video: "https://youtu.be/UYL6RJlHKOg"

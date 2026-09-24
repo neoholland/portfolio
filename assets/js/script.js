@@ -132,7 +132,7 @@ const projects = {
         type: "College Project",
         image: "assets/images/project-1.png",
         description:
-            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+            "Mutagen is a top down Survivor rougelike game where the player plays as a slime crash landed on a planet full of hostile creatures. The player must survive and find a way to escape the planet. The game was made in Unreal Engine 5 and was a college project. I was also awarded the best creative project for this game, which was created and programmed by myself and 3D models were from the Unreal Engine Marketplace.",
         tech: "Unreal Engine • Scripting • College Project",
         github: "https://github.com/wunkus/mutagenx",
         video: "https://www.youtube.com/watch?v=UYKqE75Zc78"
@@ -143,7 +143,7 @@ const projects = {
         type: "Game Jam",
         image: "assets/images/project-2.png",
         description:
-            "Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. ",
+            "Workplace Displacement is a puzzle game which involves navigating through a series of interconnected rooms to solve challenges. The player completed puzzles similar to portal, with the main mechanic being able to switch object positions. The game was made in Unreal Engine 5 and was a 2 week game jam project.",
         tech: "Unreal Engine • Scripting • Game Jam",
         github: "https://github.com/wunkus/Workplace-Displacement",
         video: "https://youtu.be/VKLyrSbbdYQ"
